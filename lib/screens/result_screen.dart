@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:my_protfolio1/model/questions.dart';
 import '/screens/quiz_screen.dart';
 
 class ResultScreen extends StatelessWidget {
@@ -14,7 +15,6 @@ class ResultScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var questions;
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
